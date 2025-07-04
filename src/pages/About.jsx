@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <>
-      <h1 className="w-full text-center text-5xl font-serif py-2 shadow-sm">About Me</h1>
+      <h1 className="w-full text-center text-5xl font-serif py-2 shadow-sm bg-white">About Me</h1>
       <div className="container mx-auto py-10 font-serif px-5">
         <ul className="list-disc list-inside text-slate-700 space-y-3 text-lg my-8">
           <li>Developed 4+ real-world web apps using React & Tailwind CSS</li>

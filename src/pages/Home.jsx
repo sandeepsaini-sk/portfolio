@@ -3,6 +3,10 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import sk from "../assets/sk.png";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import Skill from "./Skill";
+import Projects from "./Projects";
+import About from "./About";
+import Contact from "./Contact";
 export default function Home() {
   const [text] = useTypewriter({
     words: ["Web Developer | UI Designer"],
@@ -13,7 +17,7 @@ export default function Home() {
   });
   return (
     <>
-      <div className="container mx-auto mt-16 bg-sky-100 ">
+      <div className="container mx-auto mt-16 bg-sky-100 m-10 ">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 items-center p-5">
           {/* Left - Image */}
           <div className="flex justify-center">
@@ -69,6 +73,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Skill/>
+      <Projects/>
+      <About/>
+      <Contact/>
     </>
   );
 }

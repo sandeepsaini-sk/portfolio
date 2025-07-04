@@ -40,7 +40,7 @@ export default function Projects() {
 
   return (
     <>
-      <div className="text-5xl font-serif text-center p-2 shadow-sm">
+      <div className="text-5xl font-serif text-center p-2 shadow-sm bg-white">
         Projects Page
       </div>
       <div className='container mx-auto pb-10 mt-5 mb-20'>

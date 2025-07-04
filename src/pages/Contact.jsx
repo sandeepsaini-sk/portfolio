@@ -4,7 +4,7 @@ import { FaEnvelope, FaGithub, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 export default function Contact() {
   return (
     <>
-      <h1 className="w-full text-center text-5xl font-serif py-2 shadow-sm">Contact Me</h1>
+      <h1 className="w-full text-center text-5xl font-serif py-2 shadow-sm bg-white">Contact Me</h1>
 
       <div className="container mx-auto px-5 py-10 font-serif text-center bg-sky-100 rounded-md shadow-md mt-5">
         

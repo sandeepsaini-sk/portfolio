@@ -22,7 +22,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <div className="w-full fixed bottom-0 z-50">
+        <div className="w-full">
         <Footer/>
         </div>
       </BrowserRouter>

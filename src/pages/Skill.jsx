@@ -41,7 +41,7 @@ const softSkills = [
   return (
     <>
       {/**heading */}
-      <h1 className="w-full text-center text-5xl font-serif py-2 shadow-sm">
+      <h1 className="w-full text-center text-5xl font-serif py-2 shadow-sm bg-white">
         Skills
       </h1>
       <div className="container p-3 mx-auto mb-20">
